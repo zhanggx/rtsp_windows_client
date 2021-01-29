@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtRtspClient", "QtRtspClient\QtRtspClient.vcxproj", "{0315D3B8-8488-4D31-BF10-73677CCA5600}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MediaLiveUtils", "MediaLiveUtils\MediaLiveUtils.vcxproj", "{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MediaLiveBase", "MediaLiveBase\MediaLiveBase.vcxproj", "{3F8D492B-BF67-42E3-9A0D-39C4079117CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFMpegMediaLive", "FFMpegMediaLive\FFMpegMediaLive.vcxproj", "{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFMpegShareLib", "FFMpegShareLib\FFMpegShareLib.vcxitems", "{2FF2D6BF-7890-4E17-8468-99EE666634BA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FFMpegShareLib\FFMpegShareLib.vcxitems*{2ff2d6bf-7890-4e17-8468-99ee666634ba}*SharedItemsImports = 9
+		FFMpegShareLib\FFMpegShareLib.vcxitems*{52cd8f6e-9b82-4ec3-a623-4270b5784bba}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0315D3B8-8488-4D31-BF10-73677CCA5600}.Debug|x64.ActiveCfg = Debug|x64
+		{0315D3B8-8488-4D31-BF10-73677CCA5600}.Debug|x64.Build.0 = Debug|x64
+		{0315D3B8-8488-4D31-BF10-73677CCA5600}.Debug|x86.ActiveCfg = Debug|Win32
+		{0315D3B8-8488-4D31-BF10-73677CCA5600}.Release|x64.ActiveCfg = Release|x64
+		{0315D3B8-8488-4D31-BF10-73677CCA5600}.Release|x64.Build.0 = Release|x64
+		{0315D3B8-8488-4D31-BF10-73677CCA5600}.Release|x86.ActiveCfg = Release|x64
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Debug|x64.ActiveCfg = Debug|x64
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Debug|x64.Build.0 = Debug|x64
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Debug|x86.Build.0 = Debug|Win32
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Release|x64.ActiveCfg = Release|x64
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Release|x64.Build.0 = Release|x64
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Release|x86.ActiveCfg = Release|Win32
+		{BE53A3D3-5A62-456A-BA9A-1F0EFDD141F8}.Release|x86.Build.0 = Release|Win32
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Debug|x64.ActiveCfg = Debug|x64
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Debug|x64.Build.0 = Debug|x64
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Debug|x86.Build.0 = Debug|Win32
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Release|x64.ActiveCfg = Release|x64
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Release|x64.Build.0 = Release|x64
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Release|x86.ActiveCfg = Release|Win32
+		{3F8D492B-BF67-42E3-9A0D-39C4079117CD}.Release|x86.Build.0 = Release|Win32
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Debug|x64.ActiveCfg = Debug|x64
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Debug|x64.Build.0 = Debug|x64
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Debug|x86.Build.0 = Debug|Win32
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Release|x64.ActiveCfg = Release|x64
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Release|x64.Build.0 = Release|x64
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Release|x86.ActiveCfg = Release|Win32
+		{52CD8F6E-9B82-4EC3-A623-4270B5784BBA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7727B7C7-144E-4254-88FA-1130A327A0C8}
+	EndGlobalSection
+EndGlobal
